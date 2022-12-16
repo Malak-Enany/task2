@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+body{
+    background-color: black;
+    font-family:'Cairo', sans-serif;
+}
+/*main start*/
+main div{
+    display: inline-block;
+    width:10vw;
+    margin: auto;
+    text-align: center;
+    margin-left: 150px;  
+}
+main div img{
+    width:100%;
+    height: 20vh;
+    border: 1px , black ;
+    border-radius:50% ;
+    margin: auto;
+    
+}
+/*main end*/
+/* personal photo  start */
+.imgreen{
+   border:5px solid black;
+    outline: 7px solid green;
+}
+.imred{
+    border:5px solid black;
+    outline: 7px solid red;
+}
+.imblue{
+    border:5px solid black;
+    outline: 7px solid blue;
+}
+.imwhite{
+    border:5px solid black;
+    outline: 7px solid white;
+}
+/* personal photo  end */
+
+
+/* personal information start */
+.wred , .wwhite ,.wblue , .wgreen{
+    text-align: center;
+}
+.wblue{
+    color:blue;
+}
+.wwhite,h3{
+    color: white;
+}
+.wgreen ,.tgreen{
+    color: green;
+    text-align: center;
+}
+.wred , .tred{
+    color: red;
+    text-align: center;
+    
+}
+/* personal information end */
+
+
+/* people image start */
+
+.people{
+    display: block;
+    width:100%;
+    float: left;
+    text-align: center;
+    margin: 15px 0px;
+} 
+ .bogreen,.bored,.boblue{ 
+    
+    border-style: solid;
+    border-width: 15px;
+    border-right: 0ch;
+    border-top: 0cm;
+    border-bottom: 0;
+    margin: auto;
+    margin: 0px 30px;
+   
+
+}
+.bogreen{
+  
+    border-color: green ;
+    
+}
+.bored{
+    border-color: red ;
+}
+.boblue{
+    border-color: blue;
+} 
+/* people image end */
+
+/* text start */
+.tred{
+    padding-top: 30px;
+    font-size: 20;
+   
+
+}
+.tgreen{
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+/* text end */
+.clear{
+    clear: both;
+}
